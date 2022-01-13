@@ -155,7 +155,7 @@ export const postQuery = graphql`
           embedded_code
         }
       }
-      created_at(locale: "")
+      created_at
       author {
         title
       }

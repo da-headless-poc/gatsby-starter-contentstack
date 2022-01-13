@@ -116,7 +116,7 @@ export const pageQuery = graphql`
             rich_text
           }
         }
-        created_at(formatString: "")
+        created_at
         author {
           title
         }
